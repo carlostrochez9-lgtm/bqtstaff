@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Banquet Shift Management Portal</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- 1. TOP NAVIGATION -->
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo">
+        <span class="nav__logo-mark"></span>
+        <span class="nav__logo-text">BanquetPortal</span>
+      </a>
+
+      <nav class="nav__menu">
+        <a href="#home" class="nav__link nav__link--active">Home</a>
+        <a href="#features" class="nav__link">Features</a>
+        <a href="#venues" class="nav__link">For Venues</a>
+        <a href="#staff" class="nav__link">For Staff</a>
+        <a href="#pricing" class="nav__link">Pricing</a>
+        <a href="#testimonials" class="nav__link">Testimonials</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a href="#login" class="nav__login">Login</a>
+        <a href="#demo" class="nav__btn nav__btn--outline">Request Demo</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- 2. HERO SECTION -->
+    <section id="home" class="hero">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <p class="eyebrow">Banquet Shift Management, Refined.</p>
+          <h1 class="hero__title">Effortless Elegance in Every Event Shift.</h1>
+          <p class="hero__subtitle">
+            A luxury-grade web portal that orchestrates your banquet staff, schedules,
+            and events with precision worthy of your guests.
+          </p>
+          <div class="hero__actions">
+            <a href="#demo" class="btn btn--primary">Request a Private Demo</a>
+            <a href="#features" class="btn btn--ghost">Explore Features</a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__mockup">
+            <div class="mockup__header">
+              <span class="mockup__dot"></span>
+              <span class="mockup__dot"></span>
+              <span class="mockup__dot"></span>
+            </div>
+            <div class="mockup__body">
+              <div class="mockup__calendar">
+                <h3>Grand Ballroom – Gala Dinner</h3>
+                <p>Saturday, 8:00 PM · 24 Staff Assigned</p>
+                <div class="mockup__tags">
+                  <span>Service</span><span>Bar</span><span>Kitchen</span>
+                </div>
+              </div>
+              <div class="mockup__list">
+                <div class="mockup__item">
+                  <div class="mockup__avatar"></div>
+                  <div>
+                    <p class="mockup__name">Emma L.</p>
+                    <p class="mockup__role">Head Waiter</p>
+                  </div>
+                  <span class="mockup__status">Confirmed</span>
+                </div>
+                <div class="mockup__item">
+                  <div class="mockup__avatar"></div>
+                  <div>
+                    <p class="mockup__name">Daniel S.</p>
+                    <p class="mockup__role">Bartender</p>
+                  </div>
+                  <span class="mockup__status mockup__status--pending">Pending</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. TRUST STRIP -->
+    <section class="trust">
+      <div class="trust__inner">
+        <p class="trust__text">Trusted by leading hotels, country clubs, and private venues.</p>
+        <div class="trust__logos">
+          <span class="trust__logo">Grand Regent</span>
+          <span class="trust__logo">Aurora Suites</span>
+          <span class="trust__logo">The Marquis</span>
+          <span class="trust__logo">Bellevue Club</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. VALUE PROPOSITION -->
+    <section id="features" class="section section--light">
+      <div class="section__header">
+        <p class="eyebrow">Crafted for Precision</p>
+        <h2 class="section__title">Shift Management for the Most Demanding Events</h2>
+        <span class="section__divider"></span>
+      </div>
+      <div class="grid grid--4">
+        <article class="feature-card">
+          <h3>Flawless Scheduling</h3>
+          <p>Build complex banquet shifts in minutes—covering multiple rooms, roles, and timelines.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Impeccable Staffing</h3>
+          <p>Assign the right team members based on skills, seniority, and availability.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Real-Time Visibility</h3>
+          <p>Monitor attendance, changes, and confirmations in real time—no spreadsheets.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Guest-Ready Reliability</h3>
+          <p>Minimize last-minute chaos so your staff can focus on guest experience.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 5. FEATURE HIGHLIGHTS -->
+    <section class="section">
+      <div class="feature-split">
+        <div class="feature-split__content">
+          <p class="eyebrow">Intelligent Calendar</p>
+          <h2 class="section__title">A Calendar as Refined as Your Ballroom.</h2>
+          <p>Drag-and-drop shift creation, role-based color codes, and clear views of every room and event.</p>
+          <ul class="feature-list">
+            <li>Drag-and-drop shift creation</li>
+            <li>Block-out dates and blackout periods</li>
+            <li>Role-based, subtle color coding</li>
+          </ul>
+        </div>
+        <div class="feature-split__visual card-mock">
+          <p class="card-mock__title">Banquet Calendar</p>
+          <div class="card-mock__grid">
+            <span class="card-mock__pill">Gala Dinner</span>
+            <span class="card-mock__pill card-mock__pill--soft">Wedding Reception</span>
+            <span class="card-mock__pill">Corporate Summit</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-split feature-split--reverse">
+        <div class="feature-split__content">
+          <p class="eyebrow">Staff Experience</p>
+          <h2 class="section__title">An Elevated Experience for Your Team.</h2>
+          <p>Staff see confirmed shifts, dress code, and arrival times from any device.</p>
+          <ul class="feature-list">
+            <li>Mobile-friendly shift overview</li>
+            <li>One-tap confirmations</li>
+            <li>Secure in-portal messaging</li>
+          </ul>
+        </div>
+        <div class="feature-split__visual card-mock">
+          <p class="card-mock__title">Tonight’s Shifts</p>
+          <div class="mockup__list mockup__list--narrow">
+            <div class="mockup__item">
+              <div class="mockup__avatar"></div>
+              <div>
+                <p class="mockup__name">19:00 · Banquet Hall A</p>
+                <p class="mockup__role">Formal Black Tie</p>
+              </div>
+            </div>
+            <div class="mockup__item">
+              <div class="mockup__avatar"></div>
+              <div>
+                <p class="mockup__name">19:30 · Garden Terrace</p>
+                <p class="mockup__role">Cocktail Attire</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-split">
+        <div class="feature-split__content">
+          <p class="eyebrow">Event-Centric Workflow</p>
+          <h2 class="section__title">Design Every Event Like a Performance.</h2>
+          <p>See staffing, timelines, and notes in one elegant event overview.</p>
+          <ul class="feature-list">
+            <li>Timeline and staffing breakdown</li>
+            <li>Attach notes, floorplans, and banquet orders</li>
+            <li>Track last-minute changes with an audit trail</li>
+          </ul>
+        </div>
+        <div class="feature-split__visual card-mock">
+          <p class="card-mock__title">Gala Dinner · Event Overview</p>
+          <ul class="timeline">
+            <li><span>17:00</span> Room setup & briefing</li>
+            <li><span>19:00</span> Guest arrival & welcome drinks</li>
+            <li><span>20:00</span> Dinner service</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. VENUES VS STAFF -->
+    <section id="venues" class="section section--tint">
+      <div class="section__header">
+        <h2 class="section__title">Built for Every Side of Your Operation</h2>
+        <span class="section__divider"></span>
+      </div>
+      <div class="grid grid--2">
+        <article class="persona-card">
+          <h3>For Banquet &amp; F&amp;B Managers</h3>
+          <ul>
+            <li>Centralize all event shifts and rooms</li>
+            <li>Control labor costs with accurate coverage</li>
+            <li>Reduce call-ins and miscommunication</li>
+          </ul>
+        </article>
+        <article id="staff" class="persona-card">
+          <h3>For Supervisors &amp; Service Teams</h3>
+          <ul>
+            <li>Know exactly where and when to be</li>
+            <li>View dress code, setup notes, and room details</li>
+            <li>Swap or request shifts within approved rules</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- 7. TESTIMONIALS -->
+    <section id="testimonials" class="section">
+      <div class="section__header">
+        <p class="eyebrow">In Their Words</p>
+        <h2 class="section__title">Designed for Venues that Don’t Compromise.</h2>
+        <span class="section__divider"></span>
+      </div>
+      <div class="grid grid--3">
+        <article class="testimonial">
+          <p class="testimonial__quote">
+            “We replaced three spreadsheets and endless calls. Now every shift is accounted for.”
+          </p>
+          <p class="testimonial__name">Alexandra M.</p>
+          <p class="testimonial__role">Director of Banquets, Grand Regent Hotel</p>
+        </article>
+        <article class="testimonial">
+          <p class="testimonial__quote">
+            “The portal feels as polished as the events we host. Our team actually enjoys using it.”
+          </p>
+          <p class="testimonial__name">James P.</p>
+          <p class="testimonial__role">Club Manager, Bellevue Club</p>
+        </article>
+        <article class="testimonial">
+          <p class="testimonial__quote">
+            “We have complete visibility over every room, role, and event in one view.”
+          </p>
+          <p class="testimonial__name">Sophia R.</p>
+          <p class="testimonial__role">F&amp;B Manager, The Marquis</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 8. PROCESS -->
+    <section class="section section--light">
+      <div class="section__header">
+        <h2 class="section__title">From Chaos to Choreography in Three Steps.</h2>
+        <span class="section__divider"></span>
+      </div>
+      <div class="process">
+        <div class="process__step">
+          <div class="process__badge">1</div>
+          <h3>Discover</h3>
+          <p>We map your current banquet and staffing workflows.</p>
+        </div>
+        <div class="process__step">
+          <div class="process__badge">2</div>
+          <h3>Configure</h3>
+          <p>We tailor roles, rules, and permissions to your property.</p>
+        </div>
+        <div class="process__step">
+          <div class="process__badge">3</div>
+          <h3>Elevate</h3>
+          <p>Your team manages shifts and events through one elegant portal.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. PRICING -->
+    <section id="pricing" class="section">
+      <div class="section__header">
+        <h2 class="section__title">Flexible Plans for Boutique to Grand-Scale Venues</h2>
+        <span class="section__divider"></span>
+      </div>
+      <div class="grid grid--3">
+        <article class="pricing-card">
+          <h3>Boutique Venues</h3>
+          <p>For intimate hotels, estates, and private venues.</p>
+          <a href="#contact" class="btn btn--ghost btn--full">Request Custom Quote</a>
+        </article>
+        <article class="pricing-card pricing-card--highlight">
+          <h3>Luxury Hotels</h3>
+          <p>For properties with multiple banquet spaces and teams.</p>
+          <a href="#contact" class="btn btn--primary btn--full">Request Custom Quote</a>
+        </article>
+        <article class="pricing-card">
+          <h3>Multi-Property Groups</h3>
+          <p>For collections and brands managing many venues.</p>
+          <a href="#contact" class="btn btn--ghost btn--full">Request Custom Quote</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- 10. FINAL CTA -->
+    <section id="demo" class="cta">
+      <div class="cta__overlay"></div>
+      <div class="cta__inner">
+        <h2 class="cta__title">Ready to Orchestrate Every Shift with Precision?</h2>
+        <p class="cta__subtitle">
+          Schedule a private demo and see how your team can move in perfect harmony.
+        </p>
+        <div class="cta__actions">
+          <a href="#contact" class="btn btn--light">Request a Demo</a>
+          <a href="#contact" class="cta__link">Talk to Our Implementation Team</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 11. FOOTER -->
+  <footer id="contact" class="footer">
+    <div class="footer__inner">
+      <div class="footer__col">
+        <div class="footer__logo">
+          <span class="nav__logo-mark"></span>
+          <span class="footer__logo-text">BanquetPortal</span>
+        </div>
+        <p class="footer__tagline">Banquet Shift Management for Luxury Venues.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Product</h4>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#home">Overview</a>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <a href="#contact">About</a>
+        <a href="#contact">Careers</a>
+        <a href="#contact">Press</a>
+      </div>
+      <div class="footer__col">
+        <h4>Resources</h4>
+        <a href="#contact">Help Center</a>
+        <a href="#contact">Guides</a>
+        <a href="#contact">Support</a>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <p>events@banquetportal.com</p>
+        <p>+1 (000) 123‑4567</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 BanquetPortal. All rights reserved.</p>
+      <div class="footer__links">
+        <a href="#contact">Terms</a>
+        <a href="#contact">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+<script src="script.js" defer></script>
